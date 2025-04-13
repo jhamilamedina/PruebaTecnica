@@ -10,7 +10,7 @@ public class Bus {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @Column(name = "numero_bus", nullable = false)
     private String numeroBus;
